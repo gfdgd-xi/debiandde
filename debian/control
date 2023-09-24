@@ -1,0 +1,77 @@
+Source: debian-dde
+Section: metapackages
+Priority: standard
+Maintainer: gfdgd-xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Build-Depends: debhelper (>=8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.linuxdeepin.com
+
+Package: debian-dde
+Architecture: all
+Depends: ${misc:Depends},
+ deepin-desktop-environment-base
+ deepin-desktop-environment-cli
+ deepin-desktop-environment-core
+ deepin-desktop-environment-extras
+ deepin-desktop-environment-ll
+Recommends:
+ dde-qt5wayland-plugin,
+ deepin-devicemanager,
+ deepin-boot-maker,
+ deepin-reader,
+ deepin-log-viewer,
+ dde-introduction,
+ deepin-app-store,
+ deepin-editor,
+ deepin-system-monitor,
+ pppoe,
+ gvfs-fuse,
+ smbclient,
+ python-smbc,
+ cups-filters,
+ printer-driver-all,
+ foomatic-db-compressed-ppds,
+ foomatic-db-engine,
+ openprinting-ppds,
+ libsane-hpaio,
+ linux-firmware,
+ wireless-tools,
+ ttf-deepin-opensymbol,
+ deepin-terminal | gnome-terminal,
+ printer-driver-hpcups,
+ printer-driver-hpijs,
+ libmtp-runtime,
+ samsung-print,
+ open-vm-tools-desktop,
+ open-vm-tools,
+ usbmuxd,
+ ipheth-utils,
+ libimobiledevice-dev,
+ libimobiledevice-utils,
+ dnsutils,
+ libfile-mimeinfo-perl,
+ deepin-shortcut-viewer,
+ crda,
+ network-manager-integration-plugins,
+ dde-manual-content,
+ libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc,
+ libflashplugin-pepper,
+ x-display-manager,
+ deepin-music,
+ deepin-image-viewer,
+ dde-calendar,
+ deepin-calculator,
+ deepin-voice-note,
+ deepin-screen-recorder,
+ deepin-font-manager,
+ deepin-draw,
+ deepin-album,
+ deepin-movie,
+ deepin-deb-installer,
+ deepin-compressor,
+ fcitx-sunpinyin,
+ fcitx-ui-classic
+Description: Deepin New Desktop Environment - Next
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
