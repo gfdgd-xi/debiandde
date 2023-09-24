@@ -8,4 +8,8 @@ if [ "$1" = "configure" ];then
     fi
 
 fi
-
+# 检测是否有在 /etc/profile 写入正确的内容
+cat /etc/profile | grep "export QT_QPA_PLATFORMTHEME=deepin"
+if [[ $? != 0 ]]; then
+    echo "export QT_QPA_PLATFORMTHEME=deepin" >> /etc/profile
+fi
