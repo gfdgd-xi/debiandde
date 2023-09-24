@@ -9,10 +9,10 @@ Homepage: http://www.linuxdeepin.com
 Package: debian-dde
 Architecture: all
 Depends: ${misc:Depends},
- deepin-desktop-environment-base
- deepin-desktop-environment-cli
- deepin-desktop-environment-core
- deepin-desktop-environment-extras
+ deepin-desktop-environment-base,
+ deepin-desktop-environment-cli,
+ deepin-desktop-environment-core,
+ deepin-desktop-environment-extras,
  deepin-desktop-environment-ll
 Recommends:
  dde-qt5wayland-plugin,
