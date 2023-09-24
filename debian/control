@@ -68,9 +68,7 @@ Recommends:
  deepin-album,
  deepin-movie,
  deepin-deb-installer,
- deepin-compressor,
- fcitx-sunpinyin,
- fcitx-ui-classic
+ deepin-compressor
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
  .
