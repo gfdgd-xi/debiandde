@@ -1,3 +1,9 @@
+debian-dde (2023.09.26) unstable; urgency=medium
+
+  * update depends 
+
+ -- gfdgd xi <3025613752@qq.com>  Tue, 26 Sep 2023 21:48:36 +0800
+
 debian-dde (2023.09.24) unstable; urgency=medium
 
   * update depends 
