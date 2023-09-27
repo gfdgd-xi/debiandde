@@ -13,6 +13,10 @@ QQ 交流群：881201853
 wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
 bash github.sh
 rm github.sh
+sudo apt update
+# 推荐使用 aptitude
+sudo apt install aptitude
+sudo aptitude install debian-dde
 ```
 
 ## 其它项目
