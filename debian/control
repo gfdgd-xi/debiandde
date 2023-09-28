@@ -74,6 +74,7 @@ Recommends:
  dde-calendar,
  deepin-calculator,
  deepin-voice-note,
+ xfce4-pulseaudio-plugin,
  deepin-screen-recorder,
  deepin-font-manager,
  deepin-draw,
