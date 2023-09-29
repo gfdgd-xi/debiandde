@@ -1,3 +1,9 @@
+debian-dde (2023.09.29) unstable; urgency=medium
+
+  * add config file
+
+ -- gfdgd xi <3025613752@qq.com>  Fri, 29 Sep 2023 08:00:45 +0800
+
 debian-dde (2023.09.26) unstable; urgency=medium
 
   * update depends 
