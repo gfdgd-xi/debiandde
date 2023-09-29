@@ -62,6 +62,10 @@ sudo aptitude install debian-dde
 ![图片.png](https://storage.deepin.org/thread/202309290830227839_图片.png)
 ### Deepin OCR
 ![图片.png](https://storage.deepin.org/thread/20230929083131540_图片.png)
+### 文件编辑器
+![图片.png](https://storage.deepin.org/thread/202309290833075786_图片.png)
+### Deepin Union Code
+![图片.png](https://storage.deepin.org/thread/202309290833407051_图片.png)
 
 ## 其它项目
 Deepin：https://github.com/linuxdeepin/  
