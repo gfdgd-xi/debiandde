@@ -58,6 +58,10 @@ sudo aptitude install debian-dde
 ![图片.png](https://storage.deepin.org/thread/202309290827141532_图片.png)
 ### 连连看
 ![图片.png](https://storage.deepin.org/thread/202309290828043616_图片.png)
+### 五子棋
+![图片.png](https://storage.deepin.org/thread/202309290830227839_图片.png)
+### Deepin OCR
+![图片.png](https://storage.deepin.org/thread/20230929083131540_图片.png)
 
 ## 其它项目
 Deepin：https://github.com/linuxdeepin/  
