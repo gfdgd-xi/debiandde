@@ -5,11 +5,14 @@
 <a href='https://gitee.com/gfdgd-xi/debian-dde/members'><img src='https://gitee.com/gfdgd-xi/debian-dde/badge/fork.svg?theme=dark' alt='fork'></img></a>  
 
 ## 介绍
-这是 DDE23 For Debian12 的移植，类似于 UbuntuDDE 项目  
+> 深度桌面环境是深度科技自主开发的美观易用、极简操作的桌面环境，主要由桌面、启动器、任务栏、控制中心、窗口管理器等组成，系统中预装了深度特色应用，它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，将会被越来越多的用户所喜爱和使用。
+DebianDDE 项目旨在可以在 Debian 上使用 DDE 桌面环境，这个项目可以让你在 Debian12 安装 DDE23  
+![图片.png](https://storage.deepin.org/thread/202309290906088844_图片.png)  
 目前只支持在 debian12 安装 dde23，amd64 架构  
-QQ 交流群：881201853  
+DebianDDE QQ 交流群：881201853  
 ### 特点
-- 系统底层为 Debian12(Bookworm)，目前 Deepin23 正在做根社区，相对而言会缺少些依赖，而 Debian 的包相对完善许多
+- 使用 DDE23（Deepin23 Beta2） 作为桌面环境
+- 系统底层为 Debian12(Bookworm)
 - 内置部分软件的开源替代品，如：星火应用商店（deepin应用商店）、Wine 运行器（Wine支持）、Waydroid 运行器（UEngine）
 - ……
 
@@ -34,7 +37,7 @@ sudo aptitude install debian-dde
  ![561B67D74CDC41992752D57DA12200A5.png](https://storage.deepin.org/thread/202309290819261528_561B67D74CDC41992752D57DA12200A5.png)
 
 2. 默认图标渲染问题（可以换成 `ePapirus-Dark` 图标主题）
- ![图片.png](https://storage.deepin.org/thread/202309290817543749_图片.png)
+ ![图片.png](https://storage.deepin.org/thread/20230929090745364_图片.png)
 
 3. 截图卡顿
 4. 与 `pipewire-alsa`,`pipewire-audio` 包冲突
@@ -66,6 +69,12 @@ sudo aptitude install debian-dde
 ![图片.png](https://storage.deepin.org/thread/202309290833075786_图片.png)
 ### Deepin Union Code
 ![图片.png](https://storage.deepin.org/thread/202309290833407051_图片.png)
+### 计算器
+![图片.png](https://storage.deepin.org/thread/202309290903008076_图片.png)
+### 设备管理器
+![图片.png](https://storage.deepin.org/thread/202309290903343640_图片.png)
+### 磁盘管理器
+![图片.png](https://storage.deepin.org/thread/202309290904247351_图片.png)
 
 ## 其它项目
 Deepin：https://github.com/linuxdeepin/  
