@@ -9,7 +9,7 @@
 
 DebianDDE 项目旨在可以在 Debian 上使用 DDE 桌面环境，这个项目可以让你在 Debian12 安装 DDE23  
 ![图片.png](https://storage.deepin.org/thread/202309290906088844_图片.png)  
-***目前只支持在 debian12 安装 dde23，amd64 架构***  
+***目前只支持在 debian12 安装 dde23，amd64、arm64 架构***  
 DebianDDE QQ 交流群：881201853  
 ***该系统不适合日用，如需日用请使用 Deepin***  
 ### 特点
