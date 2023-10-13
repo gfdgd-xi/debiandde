@@ -40,11 +40,9 @@ Recommends:
  spark-store,
  linuxqq,
  com.qq.weixin.spark,
- org.deepin.contacts,
  org.deepin.browser,
  org.deepin.chineseime,
  deepin-defender,
- deepin-mobile-assistant,
  spark-deepin-wine-runner,
  spark-waydroid-runner,
  wireless-tools,
@@ -81,7 +79,8 @@ Recommends:
  deepin-album,
  deepin-movie,
  deepin-deb-installer,
- deepin-compressor
+ deepin-compressor,
+ deepin-compatibility-mode
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
  .
