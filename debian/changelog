@@ -1,3 +1,9 @@
+debian-dde (2024.01.01) unstable; urgency=medium
+
+  * add apt source
+
+ -- gfdgd xi <3025613752@qq.com>  Mon, 1 Jan 2024 11:18:40 +0800
+
 debian-dde (2023.10.14) unstable; urgency=medium
 
   * remove package.
