@@ -24,7 +24,7 @@ jobs:
           sudo chroot ~/debian rm github.sh
           sudo chroot ~/debian apt update
           sudo chroot ~/debian apt upgrade -y
-          sudo chroot ~/debian apt install debiandde -y
+          sudo chroot ~/debian apt install debian-dde -y
           sudo chroot ~/debian apt clean -y
           DESTDIR=~/debian
           umount "$DESTDIR/dev"
