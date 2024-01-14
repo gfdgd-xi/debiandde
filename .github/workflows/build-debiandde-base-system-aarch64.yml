@@ -18,7 +18,7 @@ jobs:
           sudo chmod 777 /usr/bin/pardus-chroot
           sudo pardus-chroot ~/debian
           sudo chroot ~/debian apt update
-          sudo chroot ~/debian apt install gpg wget -y
+          sudo chroot ~/debian apt install gpg wget sudo -y
           sudo chroot ~/debian wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
           sudo chroot ~/debian bash github.sh
           sudo chroot ~/debian rm github.sh
