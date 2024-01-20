@@ -83,4 +83,14 @@ Deepin：https://github.com/linuxdeepin/
 Wine 运行器：https://gitee.com/gfdgd-xi/deep-wine-runner  
 Waydroid 运行器：https://gitee.com/gfdgd-xi/waydroid-runner  
 
+## 请作者喝杯茶
+如果您觉得 Wine 运行器对你有帮助，可以请作者喝杯茶  
+<img src="Icon/QR/Wechat.png" width="250"  /> 
+<img src="Icon/QR/Alipay.jpg" width="250"  />
+<img src="Icon/QR/QQ.png" width="250" >
+
+### 广告
+支付宝官方活动，扫描获得支付红包！  
+<p><img src="Icon/QR/advertisement0.jpg" width="250" ></p>
+
 # ©2023～Now gfdgd xi
