@@ -7,14 +7,13 @@
 ## 介绍
 > 深度桌面环境是深度科技自主开发的美观易用、极简操作的桌面环境，主要由桌面、启动器、任务栏、控制中心、窗口管理器等组成，系统中预装了深度特色应用，它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，将会被越来越多的用户所喜爱和使用。
 
-DebianDDE 项目旨在可以在 Debian 上使用 DDE 桌面环境，这个项目可以让你在 Debian12 安装 DDE23  
+DebianDDE 项目旨在可以在 Debian 上使用 DDE 桌面环境，这个项目可以让你可以在比 deepin 基础库更高的 Debian 上使用 DDE 桌面环境  
 ![图片.png](https://storage.deepin.org/thread/202309290906088844_图片.png)  
-***目前只支持在 debian12 安装 dde23，amd64、arm64 架构***  
 DebianDDE QQ 交流群：881201853  
 ***该系统不适合日用，如需日用请使用 Deepin***  
 ### 特点
-- 使用 DDE23（Deepin23 Beta2） 作为桌面环境
-- 系统底层为 Debian12(Bookworm)
+- 使用 DDE 作为桌面环境
+- 系统底层为 Debian
 - 内置部分软件的开源替代品，如：星火应用商店（deepin应用商店）、Wine 运行器（Wine支持）、Waydroid 运行器（UEngine）
 - ……
 
@@ -27,16 +26,6 @@ Sourceforge：https://sourceforge.net/projects/debiandde/
 ## 部分子仓库
 apt 仓库：https://github.com/gfdgd-xi/dde-for-debian12  
 
-## 如何安装 DebianDDE
-```bash
-wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
-bash github.sh
-rm github.sh
-sudo apt update
-# 推荐使用 aptitude
-sudo apt install aptitude
-sudo aptitude install debian-dde
-```
 
 ## 已知问题
 > 注：deepin23 beta2 该有的 bug 这个都有
