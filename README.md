@@ -18,6 +18,12 @@ DebianDDE QQ 交流群：881201853
 - 内置部分软件的开源替代品，如：星火应用商店（deepin应用商店）、Wine 运行器（Wine支持）、Waydroid 运行器（UEngine）
 - ……
 
+## ISO 下载链接
+123盘：https://www.123pan.com/s/pDSKVv-RJBWv.html  
+百度网盘: https://pan.baidu.com/s/1u0aILMc72YbWJIurmEhsWA?pwd=scm9  
+诚通网盘: http://ctfile.gfdgdxi.top/d/31540479-58655689-601126?p=2061 (访问密码: 2061)  
+Sourceforge：https://sourceforge.net/projects/debiandde/  
+
 ## 部分子仓库
 apt 仓库：https://github.com/gfdgd-xi/dde-for-debian12  
 
