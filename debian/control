@@ -6,7 +6,7 @@ Build-Depends: debhelper (>=8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://www.linuxdeepin.com
 
-Package: dde
+Package: debiandde
 Architecture: all
 Depends: ${misc:Depends},
  deepin-desktop-base | deepin-desktop-server,
