@@ -48,7 +48,6 @@ Recommends:
  uengine,
  com.gitee.uengine.runner.spark,
  spark-deepin-wine-runner,
- spark-waydroid-runner,
  deepin-editor,
  deepin-system-monitor,
  pppoe,
