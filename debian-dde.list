@@ -1,1 +1,2 @@
 deb [trusted=true] http://dde20.deepin23nightly.debian11.gfdgdxi.top/ ./
+deb [trusted=true] http://master.dl.sourceforge.net/project/debiandde/dde20-nightly-deb-more/ ./
