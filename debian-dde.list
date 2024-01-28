@@ -1,5 +1,1 @@
-deb [trusted=true] http://deb.debiandde.gfdgdxi.top/ ./
-# 拓展源
-deb [trusted=true] https://master.dl.sourceforge.net/project/debiandde/deb/ ./
-# 日更源（不建议开启）
-# deb [trusted=true] http://amd64.daily.deb.debiandde.gfdgdxi.top/ ./
+deb [trusted=true] http://dde20.deepin23nightly.debian11.gfdgdxi.top/ ./
