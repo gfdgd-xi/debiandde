@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+if [ "$1" = "configure" ];then
+
+    if [ -f /usr/share/deepin-home-appstore-daemon/pkg-config-hook-config ]; then
+    	mv /usr/share/deepin-home-appstore-daemon/pkg-config-hook-config /etc/dpkg/dpkg.cfg.d/
+    fi
+
+fi
+

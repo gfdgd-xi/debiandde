@@ -1,0 +1,49 @@
+name: Building DebianDDE Base System(Amd64)
+run-name: ${{ github.actor }} Building DebianDDE Base System(Amd64) 🚀
+on:
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Building
+        run: |
+          cpu=$(cat /proc/cpuinfo | grep processor | wc -l)
+          # 配置构建容器
+          sudo apt update
+          sudo apt install aria2 debootstrap neofetch python3 curl qemu-user-static -y
+          neofetch
+          sudo debootstrap --arch amd64 bookworm ~/debian
+          sudo aria2c -d /usr/bin -o pardus-chroot https://github.com/gfdgd-xi/deep-wine-runner/raw/main/pardus-chroot
+          sudo chmod 777 /usr/bin/pardus-chroot
+          sudo pardus-chroot ~/debian
+          sudo chroot ~/debian apt update
+          sudo chroot ~/debian apt install gpg wget sudo -y
+          sudo chroot ~/debian wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
+          sudo chroot ~/debian bash github.sh
+          sudo chroot ~/debian rm github.sh
+          sudo chroot ~/debian apt update
+          sudo chroot ~/debian apt upgrade -y
+          sudo chroot ~/debian apt install debian-dde -y
+          sudo chroot ~/debian apt clean -y
+          DESTDIR=~/debian
+          umount "$DESTDIR/dev"
+          umount "$DESTDIR/run"
+          umount "$DESTDIR/media"
+          umount "$DESTDIR/dev/pts"
+          umount "$DESTDIR/sys"
+          umount "$DESTDIR/proc"
+          umount "$DESTDIR/dev/shm"
+          umount "$DESTDIR/tmp"
+          #umount "$DESTDIR/sys/firmware/efi/efivars"
+          cd ~/debian
+          tar -cvf ../debiandde-basesystem.tar
+          cd ~
+          xz -T $cpu ~/debiandde-basesystem.tar
+          
+      - name: upload result
+        uses: actions/upload-artifact@v1
+        with:
+          name: debiandde-basesystem.tar.xz
+          path: /home/runner/debiandde-basesystem.tar.xz
+      

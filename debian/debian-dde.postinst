@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+if [ "$1" = "configure" ];then
+
+    if [ -f /usr/share/deepin-home-appstore-daemon/pkg-config-hook-config ]; then
+    	mv /usr/share/deepin-home-appstore-daemon/pkg-config-hook-config /etc/dpkg/dpkg.cfg.d/
+    fi
+
+fi
+# 检测是否有在 /etc/profile 写入正确的内容（废弃）
+#cat /etc/profile | grep "export QT_QPA_PLATFORMTHEME=deepin"
+#if [[ $? != 0 ]]; then
+#    echo "export QT_QPA_PLATFORMTHEME=deepin" >> /etc/profile
+#fi
