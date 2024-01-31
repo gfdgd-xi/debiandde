@@ -23,25 +23,36 @@ DebianDDE QQ 交流群：881201853
 诚通网盘: http://ctfile.gfdgdxi.top/d/31540479-58655689-601126?p=2061 (访问密码: 2061)  
 Sourceforge：https://sourceforge.net/projects/debiandde/  
 
-## 部分子仓库
-apt 仓库：https://github.com/gfdgd-xi/dde-for-debian12  
+## 系统截图
+### DebianDDE 23（基于 Debian 12）
 
+![图片.png](https://storage.deepin.org/thread/202309290906088844_图片.png)
 
-## 已知问题
-> 注：deepin23 beta2 该有的 bug 这个都有
+![图片.png](https://storage.deepin.org/thread/202310142054385784_图片.png)
 
-1. 任务栏声音调整功能和控制中心的声音控制可能无法正常使用/卡死（可以使用 `xfce4-pulseaudio-plugin` 调节音量）
- ![561B67D74CDC41992752D57DA12200A5.png](https://storage.deepin.org/thread/202309290819261528_561B67D74CDC41992752D57DA12200A5.png)
+![图片.png](https://storage.deepin.org/thread/202310142055033371_图片.png)
 
-2. 默认图标渲染问题（可以换成 `ePapirus-Dark` 图标主题）
- ![图片.png](https://storage.deepin.org/thread/20230929090745364_图片.png)
+![VirtualBox_Windows_14_10_2023_20_53_34.png](https://storage.deepin.org/thread/202310142054072269_VirtualBox_Windows_14_10_2023_20_53_34.png)
 
-3. 截图卡顿
-4. 与 `pipewire-alsa`,`pipewire-audio` 包冲突
- ![图片.png](https://storage.deepin.org/thread/202309290822372818_图片.png)
-6. 部分 dtk 应用依赖问题，如 deepin movie
-7. apt 服务器在国外，对部分用户不友好
-8. ……
+### DebianDDE 20（基于 Debian 11 + Deepin 23 Nightly）
+
+![截图_VirtualBox Machine_20240129104958.png](https://storage.deepin.org/thread/202401290318221162_截图_VirtualBoxMachine_20240129104958.png)
+
+![截图_VirtualBox Machine_20240129105143.png](https://storage.deepin.org/thread/202401290318225399_截图_VirtualBoxMachine_20240129105143.png)
+
+![截图_VirtualBox Machine_20240129105320.png](https://storage.deepin.org/thread/202401290318215320_截图_VirtualBoxMachine_20240129105320.png)
+
+![截图_VirtualBox Machine_20240129105358.png](https://storage.deepin.org/thread/202401290318217886_截图_VirtualBoxMachine_20240129105358.png)
+
+![截图_VirtualBox Machine_20240129105510.png](https://storage.deepin.org/thread/202401290318217577_截图_VirtualBoxMachine_20240129105510.png)
+
+![截图_VirtualBox Machine_20240129105837.png](https://storage.deepin.org/thread/202401290318218831_截图_VirtualBoxMachine_20240129105837.png)
+
+![截图_VirtualBox Machine_20240129105914.png](https://storage.deepin.org/thread/202401290318211092_截图_VirtualBoxMachine_20240129105914.png)
+
+![截图_VirtualBox Machine_20240129110104.png](https://storage.deepin.org/thread/202401290318216629_截图_VirtualBoxMachine_20240129110104.png)
+
+![截图_VirtualBox Machine_20240129110132.png](https://storage.deepin.org/thread/202401290318219456_截图_VirtualBoxMachine_20240129110132.png)
 
 ## 部分程序效果图
 ### Deepin 文件管理器
@@ -77,6 +88,8 @@ apt 仓库：https://github.com/gfdgd-xi/dde-for-debian12
 Deepin：https://github.com/linuxdeepin/  
 Wine 运行器：https://gitee.com/gfdgd-xi/deep-wine-runner  
 Waydroid 运行器：https://gitee.com/gfdgd-xi/waydroid-runner  
+UEngine 运行器：https://gitee.com/gfdgd-xi/uengine-runner  
+Deepin Community Live CD：https://gitee.com/gfdgd-xi/deepin-community-live-cd  
 
 ## 请作者喝杯茶
 如果您觉得对你有帮助，可以请作者喝杯茶  
