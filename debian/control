@@ -1,0 +1,92 @@
+Source: debiandde
+Section: metapackages
+Priority: extra
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Build-Depends: debhelper (>=8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.gfdgdxi.top
+
+Package: debiandde
+Architecture: all
+Depends: ${misc:Depends},
+ deepin-desktop-base,
+ dde-desktop,
+ dde-dock,
+ dde-launcher,
+ dde-control-center(>> 2.90.5),
+ startdde,
+ dde-session-ui,
+ deepin-artwork,
+ dde-file-manager,
+ dde-qt5integration,
+ eject,
+ plymouth-theme-deepin-logo,
+ debian-dde-wallpapers,
+ fonts-noto,
+ dde-introduction,
+ dde-kwin,
+ deepin-screensaver
+Recommends:
+ file-roller,
+ deepin-manual,
+ deepin-appstore,
+ gksu,
+ deepin-editor,
+ deepin-system-monitor,
+ pppoe,
+ gvfs-fuse,
+ smbclient,
+ python-smbc,
+ cups-filters,
+ printer-driver-all,
+ foomatic-db-compressed-ppds,
+ foomatic-db-engine,
+ openprinting-ppds,
+ libsane-hpaio,
+ linux-firmware,
+ wireless-tools,
+ deepin-wine-uninstaller:i386,
+ ttf-deepin-opensymbol,
+ deepin-terminal,
+ deepin-feedback,
+ printer-driver-hpcups,
+ printer-driver-hpijs,
+ libmtp-runtime,
+ samsung-print,
+ open-vm-tools-desktop,
+ open-vm-tools,
+ usbmuxd,
+ ipheth-utils,
+ libimobiledevice-dev,
+ libimobiledevice-utils,
+ dnsutils,
+ libfile-mimeinfo-perl,
+ deepin-shortcut-viewer,
+ crda,
+ network-manager-integration-plugins,
+ libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc,
+ libflashplugin-pepper,
+ miraclecast,
+ x-display-manager,
+ deepin-screenshot,
+ deepin-music,
+ deepin-image-viewer,
+ dde-calendar,
+ deepin-calculator,
+ deepin-voice-recorder,
+ deepin-screen-recorder,
+ deepin-graphics-driver-manager,
+ deepin-font-installer,
+ warm-sched,
+ uengine,
+ spark-deepin-wine-runner,
+ com.gitee.uengine.runner.spark
+Conflicts:
+ dde-control-center(<< 2.90.5),
+ deepin-desktop-environment-desktop,
+ deepin-desktop-environment-dock,
+ deepin-desktop-environment-launcher,
+Description: Deepin New Desktop Environment - Next
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
