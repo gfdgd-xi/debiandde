@@ -1,0 +1,2 @@
+deb [trusted=true] http://dde15.debian11.gfdgdxi.top/ ./
+deb [trusted=true] http://master.dl.sourceforge.net/project/debiandde/dde15-deb-more/ ./
