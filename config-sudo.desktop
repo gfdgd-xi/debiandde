@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=config-sudo
+Name[zh_CN]=配置 sudo 权限
+Comment=配置 sudo 权限
+Type=Application
+Exec=deepin-terminal -e /usr/bin/debiandde-config-sudo
+Icon=deepin-launcher
+Categories=System
+
+# Generated from the DesktopGenerater component of the z-Tools toolkit
