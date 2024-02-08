@@ -1,0 +1,10 @@
+[Unit]
+Description=Config DebianDDE
+
+[Service]
+Type=forking
+User=root
+ExecStart=/etc/profile.d/dde.sh
+
+[Install]
+WantedBy=multi-user.target
