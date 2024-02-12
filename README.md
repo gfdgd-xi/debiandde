@@ -10,6 +10,7 @@
 DebianDDE 项目旨在可以在 Debian 上使用 DDE 桌面环境，这个项目可以让你可以在比 deepin 基础库更高的 Debian 上使用 DDE 桌面环境  
 ![图片.png](https://storage.deepin.org/thread/202309290906088844_图片.png)  
 DebianDDE QQ 交流群：881201853  
+Telegram：https://t.me/debiandde  
 ***该系统不适合日用，如需日用请使用 Deepin***  
 ### 特点
 - 使用 DDE 作为桌面环境
