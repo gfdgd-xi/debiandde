@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=debiandde
+Name[zh_CN]=自动配置debiandde（进入桌面后）
+Comment=自动配置debiandde（进入桌面后）
+Type=Application
+Exec=/usr/bin/debiandde-config-after-desktop
+Icon=deepin-launcher
+Categories=System
+
+# Generated from the DesktopGenerater component of the z-Tools toolkit

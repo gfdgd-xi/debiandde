@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ $debianVersion == 12.* ]]; then
+	cd /tmp
+	killall dde-dock dde-osd -9
+	nohup dde-dock &
+	nohup dde-osd &
+fi
