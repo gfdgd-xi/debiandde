@@ -10,6 +10,7 @@ Package: debiandde-config
 Architecture: all
 Replaces: debian-dde
 Conflicts: debian-dde, gxde-desktop
+Recommends: gxde-kernel-manager, spark-deepin-wine-runner, com.github.ccc-app-manager, gxde-time-screensaver
 Description: Deepin New Desktop Environment For Debian - Next
  This is a meta package depends Deepin New Desktop Envrionment.
  .
