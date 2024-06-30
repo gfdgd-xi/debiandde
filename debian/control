@@ -1,7 +1,7 @@
 Source: debian-dde
 Section: metapackages
 Priority: standard
-Maintainer: gfdgd-xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Maintainer: gfdgd-xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Build-Depends: debhelper (>=8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://www.linuxdeepin.com
@@ -9,6 +9,7 @@ Homepage: http://www.linuxdeepin.com
 Package: debiandde-config
 Architecture: all
 Replaces: debian-dde
+Conflicts: debian-dde, gxde-desktop
 Description: Deepin New Desktop Environment For Debian - Next
  This is a meta package depends Deepin New Desktop Envrionment.
  .
